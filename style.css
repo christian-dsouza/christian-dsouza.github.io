@@ -10,33 +10,73 @@
     overflow: hidden;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     bottom: 0px;
     /*background: linear-gradient(to right, #e270f7, #8ecdff, #e270f7, #8ecdff)*/
-    background: rgb(189, 147, 10);
+    background: rgb(201, 161, 30);
 }
 
-.title {
-    font-size: 45px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: left;
-    color: white;
+.menu {
     padding: 12px;
     background: rgb(66, 2, 78);
     opacity: 1;
 }
 
-.title a {
+.menu a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    float: right;
+    font-size: 45px;
+    padding-left: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.links a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
+    float: right;
     color: white;
     padding: 20px;
 }
 
+.title-text {
+    /* Styles specifically for the title link */
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set color */
+    /* Add any other specific styles */
+}
+
+.topic {
+    width: 100%;
+    height: 24.5vh;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    bottom: 0px;
+    /*background: linear-gradient(to right, #e270f7, #8ecdff, #e270f7, #8ecdff)*/
+    background: rgb(201, 161, 30);
+}
+
+.content {
+    padding-left: 400px;
+}
+
+.content p {
+    padding-left: 300px
+}
+
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 65px;
+    padding-bottom: 25px;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
     padding-top: 65px;
     padding-bottom: 25px;
 }
@@ -47,8 +87,10 @@ img {
 }
 
 p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
-    line-height: 2vh;
+    line-height: 3vh;
     padding-top: 45px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
