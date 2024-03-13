@@ -17,6 +17,10 @@
     background: rgb(201, 161, 30);
 }
 
+.main p {
+    padding-top: 45px;
+}
+
 .menu {
     padding: 12px;
     background: rgb(66, 2, 78);
@@ -64,8 +68,13 @@
     padding-left: 400px;
 }
 
+.content h3 {
+    padding-bottom: 25px;
+}
+
 .content p {
-    padding-left: 300px
+    padding-top: 20px;
+    padding-left: 350px
 }
 
 h2 {
@@ -90,7 +99,6 @@ p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
     line-height: 3vh;
-    padding-top: 45px;
     padding-left: 400px;
     padding-right: 400px;
 }
