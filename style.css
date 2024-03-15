@@ -102,3 +102,24 @@ p {
     padding-left: 400px;
     padding-right: 400px;
 }
+
+@media (max-width: 754px) {
+    .main {
+        width: 100%;
+        background-color: aqua;
+    }
+}
+
+@media (min-width: 755px) {
+    .main {
+        width: 100%;
+        background-color: blue;
+    }
+}
+
+@media (min-width: 78px) {
+    .main {
+        width: 100%;
+        background-color: rgb(201, 161, 30);
+    }
+}
