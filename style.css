@@ -4,21 +4,27 @@
     font-family: sans-serif;
 }
 .main {
-    width: 100%;
-    height: 91.5vh;
     position: relative;
     overflow: hidden;
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    bottom: 0px;
-    /*background: linear-gradient(to right, #e270f7, #8ecdff, #e270f7, #8ecdff)*/
-    background: rgb(201, 161, 30);
+    background-color: rgb(201, 161, 30);
 }
 
 .main p {
     padding-top: 45px;
+    line-height: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main img {
+    text-align: center;
+    border: 8px solid rgb(66, 2, 78);
+    border-radius: 8px;
+    width: 200px;
 }
 
 .menu {
@@ -81,6 +87,7 @@ h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: 65px;
     padding-bottom: 25px;
+    text-align: center;
 }
 
 h3 {
@@ -101,4 +108,26 @@ p {
     line-height: 3vh;
     padding-left: 400px;
     padding-right: 400px;
+}
+
+@media (max-width: 954px) {
+    .main {
+        width: 100%;
+        background-color: aqua;
+    }
+}
+
+@media (min-width: 955px) {
+    .main {
+        width: 100%;
+        height: 91.5vh;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 50px;
+        bottom: 0px;
+        background-color: rgb(201, 161, 30);
+    }
 }
