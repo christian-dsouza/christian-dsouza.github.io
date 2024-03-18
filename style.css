@@ -60,11 +60,17 @@ a {
     background-color: rgb(201, 161, 30);
 }
 
+.main h2 {
+    background-color: rgb(201, 161, 30);
+}
+
 .main p {
     padding-top: 45px;
     line-height: 1;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(201, 161, 30);
     padding-bottom: 10px;
     background-color: rgb(201, 161, 30);
 }
@@ -112,6 +118,7 @@ a {
 
 h2 {
     background-color: rgb(201, 161, 30);
+    background-color: rgb(201, 161, 30);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: 65px;
     padding-bottom: 25px;
@@ -139,6 +146,7 @@ p {
 }
 
 @media (max-width: 955px) {
+@media (max-width: 955px) {
     .main {
         width: 100%;
     }
@@ -156,8 +164,23 @@ p {
         width: 25%;
         text-align: center;
     }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu a {
+        width: 100%;
+    }
+
+    a {
+        width: 25%;
+        text-align: center;
+    }
 }
 
+@media (min-width: 956px) {
 @media (min-width: 956px) {
     .main {
         width: 100%;
