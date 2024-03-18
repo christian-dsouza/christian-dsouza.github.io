@@ -28,15 +28,6 @@
     color: white;
 }
 
-.links {
-    background: rgb(66, 2, 78);
-    width: 6.8%;
-    padding: 20px;
-    padding-right: 25px;
-    padding-bottom: 0px;
-    float: left;
-}
-
 a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
