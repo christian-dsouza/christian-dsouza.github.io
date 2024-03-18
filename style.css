@@ -2,7 +2,50 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(66, 2, 78);
 }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    padding: 12px;
+    background: rgb(66, 2, 78);
+    opacity: 1;
+    width: 375px;
+    float: left;
+}
+
+.menu a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    padding: 1px;
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    background: rgb(66, 2, 78);
+    width: 6.8%;
+    padding: 20px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    float: left;
+}
+
+a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 31px;
+    float:right;
+}
+
 .main {
     position: relative;
     overflow: hidden;
@@ -13,11 +56,17 @@
     background-color: rgb(201, 161, 30);
 }
 
+.main h2 {
+    background-color: rgb(201, 161, 30);
+}
+
 .main p {
     padding-top: 45px;
     line-height: 1;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(201, 161, 30);
 }
 
 .main img {
@@ -25,28 +74,6 @@
     border: 8px solid rgb(66, 2, 78);
     border-radius: 8px;
     width: 200px;
-}
-
-.menu {
-    padding: 12px;
-    background: rgb(66, 2, 78);
-    opacity: 1;
-}
-
-.menu a {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 45px;
-    padding-left: 12px;
-    text-decoration: none;
-    color: white;
-}
-
-.links a {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    float: right;
-    color: white;
-    padding: 20px;
 }
 
 .title-text {
@@ -84,6 +111,7 @@
 }
 
 h2 {
+    background-color: rgb(201, 161, 30);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: 65px;
     padding-bottom: 25px;
@@ -110,24 +138,29 @@ p {
     padding-right: 400px;
 }
 
-@media (max-width: 954px) {
+@media (max-width: 955px) {
     .main {
         width: 100%;
-        background-color: aqua;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu a {
+        width: 100%;
+    }
+
+    a {
+        width: 25%;
+        text-align: center;
     }
 }
 
-@media (min-width: 955px) {
+@media (min-width: 956px) {
     .main {
         width: 100%;
-        height: 91.5vh;
-        position: relative;
-        overflow: hidden;
-        text-align: center;
-        color: rgb(255, 255, 255);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 50px;
-        bottom: 0px;
         background-color: rgb(201, 161, 30);
     }
 }
