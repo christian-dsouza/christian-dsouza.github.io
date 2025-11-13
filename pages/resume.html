@@ -1,33 +1,40 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>Christian D'Souza | Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
     <link rel="stylesheet" href="./../style.css">
 </head>
-  
+
 <body>
-    <div class="row">
-        <div class="menu">
-            <a href="https://christian-dsouza.github.io/">Christian D'Souza</a>
+    <header class="navbar">
+        <h1 class="logo"><a href="/">CD</a></h1>
+        
+        <div class="page-title">
+            <h2> Resume </h2>
         </div>
+        
+        <!-- Hamburger button -->
+        <button class="hamburger" id="hamburger">
+        ☰
+        </button>
 
-        <a href="contact.html">Contact</a>
-        <!-- <a href="projects.html">Projects</a> -->
-        <a href="resume.html" style="text-decoration: underline;  background-color: plum;">Resume</a>
+        <!-- Navigation links -->
+        <nav class="nav-links" id="nav-links">
         <a href="about.html">About</a>
-    </div>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <div class="topic">
-        <h2 style="padding: 1%;">Resume</h2>
+    <div class="pdf">
+        <embed src="./../files/ChristianDSouza - Resume.pdf" type="application/pdf" />
     </div>
-    <center>
-        <embed
-        src="./../files/ChristianDSouza - Resume.pdf"
-        type="application/pdf"
-        width="80%"
-        height="70%"
-    />
-    </center>
     
+    <script src="./../script.js"></script>
 </body>
 
 </html>

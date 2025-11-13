@@ -1,44 +1,60 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>Christian D'Souza | Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
     <link rel="stylesheet" href="./../style.css">
 </head>
-  
+
 <body>
-    <div class="row">
-        <div class="menu">
-            <a href="https://christian-dsouza.github.io/">Christian D'Souza</a>
+    <header class="navbar">
+        <h1 class="logo"><a href="/">CD</a></h1>
+        
+        <div class="page-title">
+            <h2> Contact </h2>
         </div>
 
-        <a href="contact.html" style="text-decoration: underline;  background-color: plum;">Contact</a>
-        <!-- <a href="projects.html">Projects</a> -->
-        <a href="resume.html">Resume</a>
+        <!-- Hamburger button -->
+        <button class="hamburger" id="hamburger">
+        ☰
+        </button>
+
+        <!-- Navigation links -->
+        <nav class="nav-links" id="nav-links">
         <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+    <h2>Let's Connect!</h2>
+    <p>You can find me on the following platforms:</p>
+
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/christian-d-souza-6b9195218/" target="_blank" rel="noopener noreferrer">
+        <img src="./../images/linkedin_logo.png" alt="LinkedIn">
+        <span>LinkedIn</span>
+      </a>
+
+      <a href="https://github.com/christian-dsouza" target="_blank" rel="noopener noreferrer">
+        <img src="./../images/github.svg" alt="GitHub">
+        <span>GitHub</span>
+      </a>
+
+      <a href="https://linktr.ee/christiandsouza" target="_blank" rel="noopener noreferrer">
+        <img src="./../images/linktree_logo.png" alt="Linktree">
+        <span>Linktree</span>
+      </a>
     </div>
 
-    <div class="topic">
-        <h2 style="padding: 1%;">Contact Me!</h2>        
-    </div>
+    <p>You can also email me at christian.dsouza06@gmail.com</p>
+  </main>
 
-    <div style="text-align: center;">
-        <p style="padding-left: 0px; padding-top: 50px;">Here are some links to my socials:</p>
-    </div>
-
-    <div class="contact">
-        <a href="https://www.linkedin.com/in/christian-d-souza-6b9195218/">
-            <img src="./../images/linkedin_logo.png" alt="LinkedIn" style="width:100%;">
-        </a>
-        <a href="https://github.com/christian-dsouza">
-            <img src="./../images/github_logo.png" alt="GitHub" style="width:100%;">
-        </a>
-        <a href="https://linktr.ee/christiandsouza">
-            <img src="./../images/linktree_logo.png" alt="LinkTree" style="width:100%;">
-        </a>
-    </div>
-
-    <div style="text-align: center;">
-        <p style="padding-left: 0px;">You can also email me at christian.dsouza06@gmail.com</p>
-    </div>
+    <script src="./../script.js"></script>
 </body>
 
 </html>

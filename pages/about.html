@@ -1,63 +1,69 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>Christian D'Souza | About Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
     <link rel="stylesheet" href="./../style.css">
 </head>
-  
+
 <body>
-    <div class="row">
-        <div class="menu">
-            <a href="https://christian-dsouza.github.io/">Christian D'Souza</a>
+    <header class="navbar">
+        <h1 class="logo"><a href="/">CD</a></h1>
+        
+        <div class="page-title">
+            <h2> About Me! </h2>
         </div>
 
-        <a href="contact.html">Contact</a>
-        <!-- <a href="projects.html">Projects</a> -->
+        <!-- Hamburger button -->
+        <button class="hamburger" id="hamburger">
+        ☰
+        </button>
+
+        <!-- Navigation links -->
+        <nav class="nav-links" id="nav-links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
         <a href="resume.html">Resume</a>
-        <a href="about.html" style="text-decoration: underline; background-color: plum;">About</a>
-    </div>
+        <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <div class="topic">
-        <h2 style="padding: 1%;">About Me</h2>
-    </div>
-    
-    <div class="content_1">
-        <h3 style="padding-bottom: 0%;">Who Am I?</h3>
-        <p style="padding-left: 0.5%; font-size: 110%;">
-            My name is Christian Ethan D'Souza. I'm from Vaughan, Canada and attended St. Elizabeth Catholic High School.
-            It was in Grade 9 when I was first introduced to coding, and since taking my first course
-            in Grade 10, I've never looked back. I've enjoyed the learning process in programming, and it
-            has certainly helped that my friends are developers themselves. I have recently graduated at Queen's University with a degree in Computing. I'm always thinking about the future, and I strive to make significant contributions to
-            any task I take part in.
-        </p>
-        <h3>Hobbies/Activities</h3>
-        <img src="./../images/grade9tennis.jpg" alt="YRAA Champion" style="width:19%; float:left">
-        <p style="font-size: 110%;">
-            Playing sports is one of the ways I try to maintain a healthy
-            lifestyle. My competitive nature allows me to have a good time when 
-            playing sports, and motivates me to stay energized and active. My 
-            interest in fitness has also influenced me to go to the gym consistently.
-        </p>
-        <p style="font-size: 110%;">
-            My favourite sport is tennis! I have been playing tennis since I was 7 
-            years old, and have enjoyed training and competing. To this day, I still 
-            follow the sport closely, and have been fortunate to watch some of my
-            favourite players compete live! My favourite player is Roger Federer.
-        </p>
-    </div>
-    <div class="content_2">
-        <img src="./../images/guitar.png" alt="Guitar" style="width:19%; float:right">
-        <p style="font-size: 110%;">
-            Music has been a great addition to my past-time activities since I was a teenager. I enjoy
-            listening to music on bike rides and long drives, and it often helps me focus when I'm studying or
-            working out.
-            I've been playing the guitar since I was in high school and enjoy getting together for jams.
-        </p>
-        <p style="font-size: 110%;">
-            Some of my preferred genres are Rock/Pop Punk. I take plenty of inspiration from well-known
-            bands such as Queen, Green Day, and blink-182, as well as modern bands such 
-            as Neck Deep and WSTR.
-        </p>
-    </div>
+    <div class="projects-container">
+        <button class="prev">&#10094;</button> <!-- Left arrow -->
+  
+        <div class="projects-slider">
+            <div class="project-card">
+                <h3>Who Am I?</h3>
+                <img src="./../images/graduation.jpg" alt="Graduation">
+                <p>I'm from Vaughan, Ontario. I was first introduced to coding in high school, and I've never looked back. 
+                    I enjoy problem-solving and am fascinated by the various ways it can be applied to software development. As a recent
+                     Computer Science graduate from Queen's University, I'm always thinking about the future, and I strive to make
+                      meaningful contributions in a positive environment.</p>
+            </div>
+            <div class="project-card">
+                <h3>My Career</h3>
+                <img src="./../images/mycareer.png" alt="Careers">
+                <p>I have had the privilege of taking on various roles at companies like SmileCDR, Ericsson, and Manulife.
+                    I have always worked with teams in an Agile manner, using SDLC practices to complete objectives. I've been fortunate to
+                    connect with stakeholders to gather customers requirements for tasks, and have learned various technologies to add 
+                    to my skillset. Feel free to check out my resume to see more about my experience and skillset.
+                </p>
+            </div>
+            <div class="project-card">
+                <h3>Hobbies</h3>
+                <img src="./../images/tennis.png" alt="Hobbies">
+                <p>I enjoy plenty of activities outside of coding. I like to play sports, my favourite being tennis! 
+                    I've been playing tennis since I was 7 years old, and have enjoyed training, competing, and watching! <br>
+                    Music has been a great addition to my past-time activities since I was a teenager. I enjoy listening to music in my
+                    free time and playing guitar.
+                </p>
+            </div>
+        </div>
+
+        <button class="next">&#10095;</button> <!-- Right arrow -->
+
+    <script src="./../script.js"></script>
 </body>
-
 </html>

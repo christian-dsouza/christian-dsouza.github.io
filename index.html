@@ -1,29 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christian D'Souza | Home</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-  
-<body>
 
-    <div class="row">
-        <div class="menu">
-            <a href="https://christian-dsouza.github.io/">Christian D'Souza</a>
+<body>
+    <header class="navbar">
+        <h1 class="logo">CD</h1>
+        
+        <div class="page-title">
+            <h2> Greetings Visitor! </h2>
         </div>
 
-        <a href="pages/contact.html">Contact</a>
-        <!-- <a href="projects.html">Projects</a> -->
-        <a href="pages/resume.html">Resume</a>
-        <a href="pages/about.html">About</a>
-    </div>
+        <!-- Hamburger button -->
+        <button class="hamburger" id="hamburger">
+        ☰
+        </button>
+
+        <!-- Navigation links -->
+        <nav class="nav-links" id="nav-links">
+        <a href="./pages/about.html">About</a>
+        <a href="./pages/projects.html">Projects</a>
+        <a href="./pages/resume.html">Resume</a>
+        <a href="./pages/contact.html">Contact</a>
+        </nav>
+    </header>
     
-    <div class="main">
-        <h2 style="padding: 2%;"> Welcome to my portfolio! </h2>
-        <img src="./images/portfolio.jpg" alt="Main Picture">
-        <p>I'm Christian D'Souza, a 22 year-old Computer Science graduate from Queen's University.</p>
+    
+
+    <div class="intro">
+        <div class="profile-pic">
+            <img src="./images/profile.png" alt="Main Picture">
+        </div>
+        
+        <div class="home-message">
+            <p>I'm Christian D'Souza, a <span id="age"></span> year-old Software Developer. <br><br>
+                Feel free to explore the rest of my portfolio to get to know more about myself!
+            </p>
+        </div>
     </div>
+        
+    <script src="script.js"></script>
 </body>
 
 </html>

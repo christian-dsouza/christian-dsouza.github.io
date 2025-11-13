@@ -1,25 +1,130 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>Christian D'Souza | Projects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
     <link rel="stylesheet" href="./../style.css">
 </head>
-  
+
 <body>
-    <div class="row">
-        <div class="menu">
-            <a href="https://christian-dsouza.github.io/">Christian D'Souza</a>
+    <header class="navbar">
+        <h1 class="logo"><a href="/">CD</a></h1>
+        
+        <div class="page-title">
+            <h2> Projects </h2>
         </div>
 
-        <a href="contact.html">Contact</a>
-        <a href="projects.html" style="text-decoration: underline;  background-color: plum;">Projects</a>
-        <a href="resume.html">Resume</a>
-        <a href="about.html">About</a>
-    </div>
-    
-    <div class="topic">
-        <h2 style="padding: 1%;">Projects</h2>
-    </div>
-</body>
+        <!-- Hamburger button -->
+        <button class="hamburger" id="hamburger">
+        ☰
+        </button>
 
+        <!-- Navigation links -->
+        <nav class="nav-links" id="nav-links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="projects-container">
+        <button class="prev">&#10094;</button> <!-- Left arrow -->
+  
+        <div class="projects-slider">
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h3>QBnB</h3>
+                    </div>
+                    <div class="project-link">
+                        <img src="./../images/github.svg" alt="Link">
+                        <a href="https://github.com/christian-dsouza/Qbnb" target="_blank">
+                            <p>Source Code</p>
+                        </a>
+                    </div>
+                </div>
+                <img src="./../images/QBNB.gif" alt="QBnB">
+                <p>AirBnB-inspired vacation rental platform allowing users to create property listings, handle bookings, process payments,
+                     and leave reviews. Features comprehensive security testing including SQL injection prevention and Docker 
+                     containerization for deployment.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h3>Glowstick Guy</h3>
+                    </div>
+                    <div class="project-link">
+                        <img src="./../images/github.svg" alt="Link">
+                        <a href="https://github.com/bengoEOZZ/Glowstick-Guy" target="_blank">
+                            <p>Source Code</p>
+                        </a>
+                    </div>
+                </div>
+                <img src="./../images/glowstickGuy.gif" alt="GlowstickGuy">
+                <p>A prototype platformer game featuring unique glowstick mechanics and lighting effects. Players navigate through 
+                    challenging levels using creative movement and light-based puzzle solving in an immersive gaming experience. 
+                    A simple prototype made for fun and learning purposes coded with Unity/C#.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h3>RestaurantDB</h3>
+                    </div>
+                    <div class="project-link">
+                        <img src="./../images/github.svg" alt="Link">
+                        <a href="https://github.com/christian-dsouza/RestaurantDB" target="_blank">
+                            <p>Source Code</p>
+                        </a>
+                    </div>
+                </div>
+                <img src="./../images/restaurantdb.gif" alt="RestaurantDB">
+                <p>A web application used to demonstrate my knowledge of databases. A variety of SQL queries injected into PHP code
+                    to view past restaurant orders, employee schedules, and adding new customers. Local web server set up using XAMPP,
+                    with the MySQL database injected with mock values. 
+                </p>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h3>Portfolio</h3>
+                    </div>
+                    <div class="project-link">
+                        <img src="./../images/github.svg" alt="Link">
+                        <a href="https://github.com/christian-dsouza/christian-dsouza.github.io" target="_blank">
+                            <p>Source Code</p>
+                        </a>
+                    </div>
+                </div>
+                <img src="./../images/portfolio.gif" alt="Portfolio">
+                <p>You're looking at it! A dive into the career of yours truly, featuring sections about myself, my projects,
+                    my up-to-date resume, and a contact page! The website is made using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h3>TicTacToe</h3>
+                    </div>
+                    <div class="project-link">
+                        <img src="./../images/github.svg" alt="Link">
+                        <a href="https://github.com/christian-dsouza/TicTacToe" target="_blank">
+                            <p>Source Code</p>
+                        </a>
+                    </div>
+                </div>
+                <img src="./../images/tictactoe.gif" alt="TicTacToe">
+                <p>My first ever project! The game consists of a single-player (against the unbeatable bot!) and multi-player mode 
+                    coded in Python using the PyGame library. This project was used to demonstrate my understanding of functions in
+                     programming in our grade 11 Computer Science class.
+                </p>
+            </div>
+        </div>
+  
+        <button class="next">&#10095;</button> <!-- Right arrow -->
+    </div>
+    <script src="./../script.js"></script>
+</body>
 
 </html>
